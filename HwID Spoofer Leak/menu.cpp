@@ -1,4 +1,3 @@
-//667
 #include "ImGui/ImGui.h"
 #include "ImGui/imgui_impl_dx9.h"
 #include "ImGui/imgui_impl_win32.h"
@@ -34,7 +33,6 @@
 #define COLOR(h, c) SetConsoleTextAttribute(h, c);
 #define TEXTCOLOR(h,c1,c2,s) COLOR(h,c1); std::cout<<s; COLOR(h,c2);
 #define LENGTH(a) (sizeof(a) / sizeof(a[0]))
-
 #define MALLOC(x) HeapAlloc(GetProcessHeap(), 0, (x))
 #define FREE(x) HeapFree(GetProcessHeap(), 0, (x))
 
